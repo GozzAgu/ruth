@@ -51,6 +51,10 @@
     color: white;
 }
 
+.exp2 {
+    font-size: 13px;
+}
+
 @media (min-width: 991px) and (max-width: 1200px){
     .work1 {
         width: 400px;
