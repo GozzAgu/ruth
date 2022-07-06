@@ -1,0 +1,540 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    width: 200px;
+}
+
+.menus {
+   justify-content: end;
+}
+
+.work1 {
+    width: 500px;
+    height: 300px;
+    box-shadow: 0px 0px 15px 4px #cccccc80 ;
+    transition: 0.8s;
+}
+
+.work1:hover {
+    width: 500px;
+    height: 300px;
+    box-shadow: 0px 0px 15px 4px #cccccc80 ;
+    transform: translateY(-15px);
+    transition: 0.8s;
+}
+
+.work2 {
+    width: 500px;
+    height: 300px;
+    box-shadow: 0px 0px 15px 4px #cccccc80 ;
+    transition: 0.8s;
+}
+
+.work2:hover {
+    width: 500px;
+    height: 300px;
+    box-shadow: 0px 0px 15px 4px #cccccc80 ;
+    transform: translateY(-15px);
+    transition: 0.8s;
+}
+
+.rect {
+    margin-left: 90%;
+    margin-bottom: -15%;
+}
+
+.btn2 {
+    background-color: rgba(229, 107, 107, 0.85) ;
+    color: white;
+}
+
+@media (min-width: 991px) and (max-width: 1200px){
+    .work1 {
+        width: 400px;
+        height: 250px;
+        box-shadow: 0px 0px 15px 4px #cccccc80 ;
+        transition: 0.8s;
+    }
+
+    .work2 {
+        width: 400px;
+        height: 250px;
+        box-shadow: 0px 0px 15px 4px #cccccc80 ;
+        transition: 0.8s;
+    }
+}
+
+@media (min-width: 549px) and (max-width: 769px){
+    .work1 {
+        width: 400px;
+        height: 250px;
+        box-shadow: 0px 0px 15px 4px #cccccc80 ;
+    }
+    
+    .work2 {
+        width: 400px;
+        height: 250px;
+        box-shadow: 0px 0px 15px 4px #cccccc80 ;
+    }
+}
+
+@media (min-width: 390px) and (max-width: 548px){
+    .work1 {
+        width: 300px;
+        height: 200px;
+        box-shadow: 0px 0px 15px 4px #cccccc80 ;
+        transition: 0.8s;
+    }
+
+    .work1:hover {
+        width: 300px;
+        height: 200px;
+        box-shadow: 0px 0px 15px 4px #cccccc80 ;
+        transform: translateY(-15px);
+        transition: 0.8s;
+    }
+    
+    .work2 {
+        width: 300px;
+        height: 200px;
+        box-shadow: 0px 0px 15px 4px #cccccc80 ;
+        transition: 0.8s;
+    }
+
+    .work2:hover {
+        width: 300px;
+        height: 200px;
+        box-shadow: 0px 0px 15px 4px #cccccc80 ;
+        transform: translateY(-15px);
+        transition: 0.8s;
+    }
+}
+
+@media (min-width: 352px) and (max-width: 390px){
+    .work1 {
+        width: 250px;
+        height: 150px;
+        box-shadow: 0px 0px 15px 4px #cccccc80 ;
+        transition: 0.8s;
+    }
+
+    .work1:hover {
+        width: 250px;
+        height: 150px;
+        box-shadow: 0px 0px 15px 4px #cccccc80 ;
+        transform: translateY(-15px);
+        transition: 0.8s;
+    }
+    
+    .work2 {
+        width: 250px;
+        height: 150px;
+        box-shadow: 0px 0px 15px 4px #cccccc80 ;
+        transition: 0.8s;
+    }
+
+    .work2:hover {
+        width: 250px;
+        height: 150px;
+        box-shadow: 0px 0px 15px 4px #cccccc80 ;
+        transform: translateY(-15px);
+        transition: 0.8s;
+    }
+}
+
+@media (min-width: 100px) and (max-width: 351px){
+    .work1 {
+        width: 200px;
+        height: 100px;
+        box-shadow: 0px 0px 15px 4px #cccccc80 ;
+        transition: 0.8s;
+    }
+
+    .work1:hover {
+        width: 200px;
+        height: 100px;
+        box-shadow: 0px 0px 15px 4px #cccccc80 ;
+        transform: translateY(-15px);
+        transition: 0.8s;
+    }
+    
+    .work2 {
+        width: 200px;
+        height: 100px;
+        box-shadow: 0px 0px 15px 4px #cccccc80 ;
+        transition: 0.8s;
+    }
+
+    .work2:hover {
+        width: 200px;
+        height: 100px;
+        box-shadow: 0px 0px 15px 4px #cccccc80 ;
+        transform: translateY(-15px);
+        transition: 0.8s;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    .btn2 {
+        background-color: rgba(229, 107, 107, 0.85) ;
+        color: white;
+        
+    }
+
+    .exp1 {
+        font-size: 20px;
+    }
+
+    .exp2 {
+        font-size: 13px;
+    }
+    
+}
+
+
+
+/* WORKS */
+
+.bannerimg {
+    width: 600px;
+}
+
+.bannertext {
+    background-color: blanchedalmond;
+    border-radius: 20px;
+}
+
+.name {
+    color: rgba(227, 45, 45, 1);
+}
+
+.btn {
+    background-color: rgba(229, 107, 107, 0.85) ;
+}
+
+.aboutimg {
+    width: 600px;
+}
+
+.abouthead {
+    background-color: rgba(255, 250, 237, 1);
+}
+
+.svg2 {
+    background-color: rgba(255, 250, 237, 1);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.svg3 {
+    background-color: rgba(229, 195, 195, 0.67);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+@media (min-width: 551px) and (max-width: 800px) {
+    .bannerimg {
+        width: 90%;
+        margin-top: 50px;
+    }
+
+    .aboutimg {
+        width: 100%;
+    }
+
+    .abouttext {
+        font-size: 10px;
+    }
+
+    .abouthead {
+        font-size: 15px;
+    }
+
+    .bannertext {
+        background-color: blanchedalmond;
+        border-radius: 20px;
+        font-size: 15px;
+    }
+
+    
+    .arrow {
+        width: 70px;
+        margin-right: 10%;
+    }
+
+    .btn {
+        background-color: rgba(229, 107, 107, 0.85) ;
+        font-size: 10px;
+    }
+    
+    .btn2 {
+        background-color: rgba(229, 107, 107, 0.85) ;
+        color: white;
+        font-size: 10px;
+    }
+
+    .works {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .works p {
+        font-size: 10px;
+    }
+
+    .works h4 {
+        font-size: 15px;
+    }
+}
+
+
+@media (min-width: 351px) and (max-width: 550px) {
+    .containerbanner {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .logo {
+        width: 120px;
+    }
+
+    .bannerimg {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: -20px;
+    }
+
+    .aboutimg {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .abouttext {
+        font-size: 13px;
+        padding: 20px !important;
+    }
+
+    .abouthead {
+        font-size: 15px;
+    }
+
+    .bannertext {
+        background-color: blanchedalmond;
+        border-radius: 20px;
+        font-size: 13px;
+    }
+
+    
+    .arrow {
+        width: 70px;
+        margin-left: 45%;
+        margin-top: -40px;
+    }
+
+    .btn {
+        background-color: rgba(229, 107, 107, 0.85) ;
+        font-size: 13px;
+    }
+    
+    .btn2 {
+        background-color: rgba(229, 107, 107, 0.85) ;
+        color: white;
+        font-size: 13px;
+    }
+
+    .works {
+        padding-left: 30px;
+    }
+
+    .works p {
+        font-size: 13px;
+    }
+
+    .works h4 {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 50px) and (max-width: 351px) {
+    .bannerimg {
+        width: 90%;
+        margin-top: 50px;
+    }
+
+    .bannerhead {
+        font-size: 20px;
+    }
+
+    .aboutimg {
+        width: 100%;
+    }
+
+    .abouttext {
+        font-size: 13px;
+    }
+
+    .abouthead {
+        font-size: 20px;
+    }
+
+    .bannertext {
+        background-color: blanchedalmond;
+        border-radius: 20px;
+        font-size: 14px;
+    }
+
+    .arrow {
+        width: 70px;
+        margin-left: 35%;
+        margin-top: -80px;
+    }
+
+    .btn1 {
+        background-color: rgba(229, 107, 107, 0.85) ;
+        font-size: 15px;
+    }
+    
+    .btn2 {
+        background-color: rgba(229, 107, 107, 0.85) ;
+        color: white;
+        font-size: 15px;
+    }
+
+    .works p {
+        font-size: 13px;
+    }
+
+    .works h4 {
+        font-size: 20px;
+    }
+}
+
+
+
+
+/* CONTACT */
+
+.rect3 {
+    position: fixed;
+    bottom: 0px;
+}
+/* 
+.cont {
+    background-color: rgba(226, 166, 109, 0.07);
+}
+
+.cont2 {
+    background-color: rgba(255, 255, 255, 1);
+} */
+
+.cont {
+    background: rgba(226, 166, 109, 0.07);
+    box-sizing: border-box;
+    padding-top: 100px;
+    align-items: center;
+    width: 70vw;
+    height: 50vh;
+    border-radius: 40px;
+    margin: 0 auto;
+    margin-top: 5%;
+  }
+
+  .box {
+    border-radius: 20px;
+    margin: 0 auto;
+    width: 50%;
+    height: 140px;
+    background: rgba(255, 255, 255, 1);
+    font-size: 14px;
+  }
+
+  .box2 {
+    padding-left: 40%;
+    padding-right: 40%;
+    padding-top: 10px;
+  }
+
+  .svg {
+    position: fixed;
+    top: 15%;
+    right: 7%;
+  }
+
+  .col-5 {
+    padding-left: 30%;
+  }
+
+  @media (min-width: 100px) and (max-width: 400px) {
+    .box {
+        border-radius: 20px;
+        margin: 0 auto;
+        width: 90%;
+        height: 140px;
+        background: rgba(255, 255, 255, 1);
+        font-size: 13px;
+        padding-left: 20px;
+        padding-right: 60px;
+      }
+
+    .box2 {
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 10px;
+      }
+
+      .col-5 {
+        padding-left: 15% !important;
+      }
+
+      .box2 {
+        padding-left: 25%;
+        padding-right: 25%;
+        padding-top: 10px;
+      }
+
+      .svg {
+        position: fixed;
+        top: 8%;
+        right: 3%;
+      }
+    
+  }
+
+  @media (min-width: 401px) and (max-width: 800px) {
+    .box {
+        border-radius: 20px;
+        margin: 0 auto;
+        width: 90%;
+        height: 140px;
+        background: rgba(255, 255, 255, 1);
+        font-size: 13px;
+      }
+
+    .box2 {
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 10px;
+      }
+
+      .col-5 {
+        padding-left: 15%;
+      }
+
+      .box2 {
+        padding-left: 30%;
+        padding-right: 30%;
+        padding-top: 10px;
+      }
+
+      .svg {
+        position: fixed;
+        top: 12%;
+        right: 7%;
+      }
+    
+  }
