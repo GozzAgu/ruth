@@ -241,6 +241,35 @@
     border-radius: 10px;
 }
 
+.svgg {
+    display: flex;
+    justify-content: space-between;
+}
+
+.svggg {
+    display: flex;
+    justify-content: space-between;
+}
+
+.triangle {
+    margin-top: -30px;
+}
+
+.rect {
+    margin-top: -25px;
+}
+
+.works {
+    margin-bottom: 50px;
+}
+
+@media (min-width: 800px) and (max-width: 991px) {
+    .rect {
+        margin-top: -45px;
+    }
+     
+}
+
 @media (min-width: 551px) and (max-width: 800px) {
     .bannerimg {
         width: 90%;
@@ -265,7 +294,6 @@
         font-size: 15px;
     }
 
-    
     .arrow {
         width: 70px;
         margin-right: 10%;
@@ -293,6 +321,10 @@
 
     .works h4 {
         font-size: 15px;
+    }
+
+    .rect {
+        margin-top: -30px;
     }
 }
 
@@ -362,6 +394,10 @@
     .works h4 {
         font-size: 20px;
     }
+
+    .rect {
+        margin-top: -10px;
+    }
 }
 
 @media (min-width: 50px) and (max-width: 351px) {
@@ -415,6 +451,10 @@
 
     .works h4 {
         font-size: 20px;
+    }
+
+    .rect {
+        margin-top: -15px;
     }
 }
 
@@ -482,13 +522,7 @@
         background: rgba(255, 255, 255, 1);
         font-size: 13px;
         padding-left: -50px;
-        padding-right: 60px;
-      }
-
-    .box2 {
-        padding-left: 20%;
-        padding-right: 20%;
-        padding-top: 10px;
+        padding-right: 70px;
       }
 
       .col-5 {
@@ -521,12 +555,6 @@
         padding-right: 60px;
       }
 
-    .box2 {
-        padding-left: 10%;
-        padding-right: 10%;
-        padding-top: 10px;
-      }
-
       .col-5 {
         padding-left: 15%;
       }
@@ -544,3 +572,16 @@
       }
     
   }
+
+  @media (min-width: 801px) and (max-width: 1200px) {
+    .box {
+        border-radius: 20px;
+        margin: 0 auto;
+        width: 50%;
+        height: 140px;
+        background: rgba(255, 255, 255, 1);
+        font-size: 14px;
+        padding-left: -60px;
+        padding-right: 60px;
+      }
+}
