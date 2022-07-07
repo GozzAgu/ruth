@@ -5,6 +5,7 @@
 
 .logo {
     width: 200px;
+    margin-left: -50px;
 }
 
 .menus {
@@ -115,6 +116,11 @@
         transform: translateY(-15px);
         transition: 0.8s;
     }
+
+    .logo {
+        width: 200px;
+        margin-left: -20px;
+    }
 }
 
 @media (min-width: 352px) and (max-width: 390px){
@@ -146,6 +152,11 @@
         box-shadow: 0px 0px 15px 4px #cccccc80 ;
         transform: translateY(-15px);
         transition: 0.8s;
+    }
+
+    .logo {
+        width: 200px;
+        margin-left: -20px;
     }
 }
 
@@ -182,6 +193,7 @@
 
     .logo {
         width: 100px;
+        margin-left: -20px;
     }
 
     .btn2 {
