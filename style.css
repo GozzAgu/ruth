@@ -275,9 +275,35 @@
     margin-bottom: 50px;
 }
 
+.splash {
+    position: fixed;
+    z-index: 2;
+    right: 0;
+}
+
+.splash2 {
+    position: fixed;
+    z-index: 2;
+    bottom: 0;
+}
+
 @media (min-width: 800px) and (max-width: 991px) {
     .rect {
         margin-top: -45px;
+    }
+
+    .splash {
+        position: fixed;
+        z-index: 2;
+        right: 0;
+        width: 250px;
+    }
+    
+    .splash2 {
+        position: fixed;
+        z-index: 2;
+        bottom: 0;
+        width: 250px;
     }
      
 }
@@ -338,6 +364,30 @@
     .rect {
         margin-top: -30px;
     }
+
+    .splash {
+        position: fixed;
+        z-index: 2;
+        right: 0;
+        width: 200px;
+    }
+    
+    .splash2 {
+        position: fixed;
+        z-index: 2;
+        bottom: 0;
+        width: 200px;
+    }
+}
+
+.container {
+    position: relative;
+    z-index: 6;
+}
+
+h5 {
+    position: relative;
+    z-index: 6;
 }
 
 
@@ -410,6 +460,20 @@
     .rect {
         margin-top: -10px;
     }
+
+    .splash {
+        position: fixed;
+        z-index: 2;
+        right: 0;
+        width: 150px;
+    }
+    
+    .splash2 {
+        position: fixed;
+        z-index: 2;
+        bottom: 0;
+        width: 150px;
+    }
 }
 
 @media (min-width: 50px) and (max-width: 351px) {
@@ -467,6 +531,21 @@
 
     .rect {
         margin-top: -15px;
+    }
+
+    .splash {
+        position: fixed;
+        z-index: 2;
+        right: 0;
+        width: 120px;
+        margin-top: 100px;
+    }
+    
+    .splash2 {
+        position: fixed;
+        z-index: 2;
+        bottom: 0;
+        width: 120px;
     }
 }
 
