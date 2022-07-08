@@ -244,12 +244,18 @@
 
 .abouthead {
     background-color: rgba(255, 250, 237, 1);
+    font-size: 12px !important;
+    padding: 10px;
 }
 
 .svg2 {
     background-color: rgba(255, 250, 237, 1);
     padding: 10px;
     border-radius: 10px;
+}
+
+.svg4 {
+    margin-left: 100px;
 }
 
 .svg3 {
@@ -290,6 +296,10 @@
     position: fixed;
     z-index: 2;
     bottom: 0;
+}
+
+.aboutsvg {
+    margin-left: 30px;
 }
 
 @media (min-width: 800px) and (max-width: 991px) {
@@ -434,9 +444,9 @@ h5 {
 
     
     .arrow {
-        width: 70px;
-        margin-left: 45%;
-        margin-top: -40px;
+        width: 90px;
+        margin-left: 65%;
+        margin-top: -120px;
     }
 
     .btn {
