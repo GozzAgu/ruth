@@ -8,6 +8,10 @@
     margin-left: -50px;
 }
 
+.lastdiv {
+    background-color: rgba(220, 160, 160, 0.06);
+}
+
 .menus {
    justify-content: end;
 }
